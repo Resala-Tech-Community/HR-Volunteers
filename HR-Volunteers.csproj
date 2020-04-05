@@ -95,6 +95,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="frmEvent.xaml.cs">
+      <DependentUpon>frmEvent.xaml</DependentUpon>
+    </Compile>
     <Compile Include="frmKPI.xaml.cs">
       <DependentUpon>frmKPI.xaml</DependentUpon>
     </Compile>
@@ -136,6 +139,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="frmEvent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="frmKPI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
