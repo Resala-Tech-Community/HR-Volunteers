@@ -95,6 +95,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="frmKPI.xaml.cs">
+      <DependentUpon>frmKPI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\Volunteer.cs" />
     <Compile Include="Pages-Bind-Data\Login.cs" />
     <Compile Include="Session\Session.cs" />
@@ -133,6 +136,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="frmKPI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="frmLogin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

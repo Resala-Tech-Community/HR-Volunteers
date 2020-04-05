@@ -9,6 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using HR_Volunteers;
 using ResalaDesktop;
 using System;
 using System.Diagnostics;
