@@ -24,5 +24,37 @@ namespace HR_Volunteers
         {
             InitializeComponent();
         }
+
+        private void UserName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void cBoxBranchName_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void scroll_Scroll(object sender, System.Windows.Controls.Primitives.ScrollEventArgs e)
+        {
+            const double stepSize = 62;
+            var scrollViewer = (ScrollViewer)sender;
+            var steps = Math.Round(scrollViewer.VerticalOffset / stepSize);
+            var scrollPosition = steps * stepSize;
+            e.Equals(10);
+            if (scrollPosition >= scrollViewer.ScrollableHeight)
+            {
+                scrollViewer.ScrollToBottom();
+                return;
+            }
+            scrollViewer.ScrollToVerticalOffset(scrollPosition);
+
+        }
+
+        private void scroll_MouseWheel(object sender, MouseWheelEventArgs e)
+        {
+
+        }
+
     }
 }

@@ -17,6 +17,7 @@ using System.Diagnostics.Contracts;
 using System.Reflection;
 using System.ComponentModel.DataAnnotations;
 using HR_Volunteers.Pages_Bind_Data;
+using HR_Volunteers;
 
 namespace HR
 {
@@ -29,20 +30,16 @@ namespace HR
         public frmLogin()
         {
             InitializeComponent();
+            this.Close();
+            frmEvent Event = new frmEvent();
             this.DataContext = loginContext;
         }
         
         //SignIn sign = new SignIn();
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
-            /*if(sign.signIn(txtEmail,txtPass))
-            {
-                lblError.Content = "تم الدخول بنجاح";
-            }
-            else
-            {
-                lblError.Content = "يوجد مشكلة في تسجيل الدخول";
-            }*/
+             frmEvent Event= new frmEvent();
+              
         }
 
         private void txtPass_PasswordChanged(object sender, RoutedEventArgs e)

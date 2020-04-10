@@ -32,7 +32,7 @@
 
             <ComboBox Name="cBoxActivity" AllowDrop="True" Text="النشاط"
                         Grid.Column="1" Grid.Row="0" FontSize="20" 
-                        IsReadOnly="True" IsEditable="True" >
+                        IsReadOnly="True" IsEditable="True" SelectionChanged="cBoxActivity_SelectionChanged" >
                         <!--ItemSource="exampleClass"  addint item from IEnumerable class (exapmleClass)-->
                          
                 <ComboBox.Resources>
@@ -43,7 +43,7 @@
 
             <Button Name="btnBack" Foreground="#FFFFFF" Background="#d31313"
                         Grid.Column="0" Grid.Row="0" FontFamily="20"
-                        Click="" IsEnabled="{Binding }" Content="رجوع">
+                        Click="back" IsEnabled="{Binding }" Content="رجوع">
 
             </Button>
         </Grid>

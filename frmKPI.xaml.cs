@@ -24,20 +24,19 @@ namespace HR_Volunteers
             InitializeComponent();
         }
 
-        private void btnBranchName_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            
-
-        }
-
-        private void onActivityClick(object sender, RoutedEventArgs e)
+        private void cBoxActivity_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
 
         private void cBoxBranchName_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            cBoxBranchName.Items.Add("aybtngan");
+
+        }
+
+        private void back(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

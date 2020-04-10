@@ -23,7 +23,6 @@ C:\Users\Abdo\Documents\GitHub\HR-Volunteers\bin\Debug\HR-Volunteers.exe.manifes
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\bin\Debug\HR-Volunteers.application
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\bin\Debug\HR-Volunteers.exe
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\bin\Debug\HR-Volunteers.pdb
-C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\HR-Volunteers.csprojAssemblyReference.cache
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\frmLogin.g.cs
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\App.g.cs
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\HR-Volunteers_MarkupCompile.cache
@@ -39,3 +38,7 @@ C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\HR-Volunteers.exe.manifes
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\HR-Volunteers.application
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\HR-Volunteers.exe
 C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\HR-Volunteers.pdb
+C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\frmEvent.g.cs
+C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\frmKPI.g.cs
+C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\frmEvent.baml
+C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\frmKPI.baml

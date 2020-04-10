@@ -24,5 +24,10 @@ namespace HR_Volunteers
         {
             InitializeComponent();
         }
+
+        private void cBoxBranchName_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
