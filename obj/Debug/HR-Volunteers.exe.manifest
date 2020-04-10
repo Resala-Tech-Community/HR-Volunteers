@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HR-Volunteers.exe" size="597472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HR-Volunteers.exe" size="611808">
       <assemblyIdentity name="HR-Volunteers" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>pQ5y/Rnu1ZDUW2KM4b3wIkjSFqFom9zLb8Rm/8S10c8=</dsig:DigestValue>
+        <dsig:DigestValue>9n39pTXfPC72LAfx4l8LCa338OWHI6LyfzwylFqaFPA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

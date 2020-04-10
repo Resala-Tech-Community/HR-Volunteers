@@ -65,6 +65,10 @@
   <PropertyGroup>
     <SignManifests>true</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="PropertyChanged, Version=3.2.7.0, Culture=neutral, PublicKeyToken=ee3ee20bcf148ddd, processorArchitecture=MSIL">
       <HintPath>packages\PropertyChanged.Fody.3.2.7\lib\net40\PropertyChanged.dll</HintPath>
@@ -94,6 +98,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmEvent.xaml.cs">
+      <DependentUpon>frmEvent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="frmKPI.xaml.cs">
+      <DependentUpon>frmKPI.xaml</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\Volunteer.cs" />
     <Compile Include="Pages-Bind-Data\Login.cs" />
@@ -133,6 +143,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="frmEvent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="frmKPI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="frmLogin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

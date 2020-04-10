@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\GItHub\HR-Volunteers\obj\Debug\
+C:\Users\Abdo\Documents\GitHub\HR-Volunteers\obj\Debug\
 HR_Volunteers
 none
 false
 DEBUG;TRACE
-D:\GItHub\HR-Volunteers\App.xaml
-1-102301501
+C:\Users\Abdo\Documents\GitHub\HR-Volunteers\App.xaml
+338624758
 
-10-1751037003
-161456333212
-frmLogin.xaml;
+12-209029220
+161765858226
+frmEvent.xaml;frmKPI.xaml;frmLogin.xaml;
 
 False
 
