@@ -37,25 +37,25 @@
     <Grid Background="#FF0372BC">
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.05*"/>
-            <ColumnDefinition Width="0.3*"/>
-            <ColumnDefinition Width="0.65*"/>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="0.75*"/>
         </Grid.ColumnDefinitions>
 
         <!-- Background color -->
         <Canvas Grid.ColumnSpan="3" Background="#2c3281"></Canvas>
 
 
-        <Grid Name="grid" Grid.Column="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#2c3281">
+        <Grid Name="grid" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#2c3281">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.2*"/>
-                <ColumnDefinition Width="0.6*"/>
-                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="0.0*"/>
+                <ColumnDefinition Width="0.9*"/>
+                <ColumnDefinition Width="0.1*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.16*"/>
                 <RowDefinition Height="0.08*"/>
-                <RowDefinition Height="0.12*"/>
+                <RowDefinition Height="0.06*"/>
+                <RowDefinition Height="0.06*"/>
                 <RowDefinition Height="0.08*"/>
                 <RowDefinition Height="0.08*"/>
                 <RowDefinition Height="0.08*"/>
@@ -68,26 +68,31 @@
                    FontSize="24" FontWeight="Bold" HorizontalContentAlignment="Right" 
                    Foreground="#FFFFFF">تسجيل الدخول</Label>
 
-            <Label Name="lblError" Grid.Column="1" Grid.Row="2" 
+            <Label Name="lblUserError" Grid.Column="1" Grid.Row="2" 
                    FontFamily="Roboto" FontSize="18" Foreground="Red" 
                    FontWeight="Bold" HorizontalContentAlignment="Center" 
-                   VerticalContentAlignment="Bottom" Content="{Binding (Validation.Errors)[0].ErrorContent}"></Label>
+                   VerticalContentAlignment="Bottom" Content="{Binding usernameError}"></Label>
+            
+            <Label Name="lblPassError" Grid.Column="1" Grid.Row="3" 
+                   FontFamily="Roboto" FontSize="18" Foreground="Red" 
+                   FontWeight="Bold" HorizontalContentAlignment="Center" 
+                   VerticalContentAlignment="Bottom" Content="{Binding passwordError}"></Label>
 
-            <Label Grid.Column="1" Grid.Row="3" FontFamily="Roboto" 
+            <Label Grid.Column="1" Grid.Row="4" FontFamily="Roboto" 
                    FontSize="18" FontWeight="Bold" Foreground="#FFFFFF" 
                    HorizontalContentAlignment="Right" VerticalContentAlignment="Center">عنوان البريد الإلكتروني</Label>
-
-            <TextBox Name="txtEmail" Grid.Column="1" Grid.Row="4"
+    
+            <TextBox Name="txtEmail" Grid.Column="1" Grid.Row="5"
                      Background="#E0E0E0" Foreground="#707070" HorizontalAlignment="Stretch" 
                      VerticalAlignment="Stretch" VerticalContentAlignment="Center" FontSize="22" TextWrapping="NoWrap" 
                      HorizontalContentAlignment="Left" Padding="5"
                      TextChanged="txtEmail_TextChanged"/>
 
-            <Label Grid.Column="1" Grid.Row="5" FontFamily="Roboto" 
+            <Label Grid.Column="1" Grid.Row="6" FontFamily="Roboto" 
                    FontSize="18" FontWeight="Bold" Foreground="#FFFFFF" 
                    HorizontalContentAlignment="Right" VerticalContentAlignment="Center">كلمة السر</Label>
 
-            <PasswordBox Name="txtPass" Grid.Column="1" Grid.Row="6"
+            <PasswordBox Name="txtPass" Grid.Column="1" Grid.Row="7"
                          Background="#E0E0E0" Foreground="#707070" 
                          HorizontalAlignment="Stretch" VerticalAlignment="Stretch" 
                          VerticalContentAlignment="Center" FontSize="22"
@@ -95,7 +100,7 @@
                          Padding="5" PasswordChanged="txtPass_PasswordChanged"/>
             <!--Password="{Binding Password}"-->
             
-            <Grid Grid.Row="7" Grid.Column="1">
+            <Grid Grid.Row="8" Grid.Column="1">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="0.33*"/>
                     <RowDefinition Height="0.33*"/>
@@ -115,14 +120,14 @@
             </Grid>
             <!---Foreground="#FFFFFF" Background="#d31313"  Style="{StaticResource LoginBtn}"-->
             <Button Name="btnLogin" Foreground="#FFFFFF" Background="#d31313"
-                    Grid.Column="1" Grid.Row="8" FontSize="20" 
+                    Grid.Column="1" Grid.Row="9" FontSize="20" 
                     Click="BtnLogin_Click" IsEnabled="{Binding canLogin}" Content="تسجيل الدخول">
                 
             </Button>
         </Grid>
 
         <!-- Side Logo -->
-        <Grid Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#2c3281">
+        <Grid Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="#2c3281">
             
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0.25*"/>

@@ -20,19 +20,14 @@ using HR_Volunteers.Pages_Bind_Data;
 
 namespace HR
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class frmLogin : Window
     {
-        Login loginContext = new Login();
+        LoginPage loginContext = new LoginPage();
         public frmLogin()
         {
             InitializeComponent();
             this.DataContext = loginContext;
         }
-        
-        //SignIn sign = new SignIn();
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
             /*if(sign.signIn(txtEmail,txtPass))
